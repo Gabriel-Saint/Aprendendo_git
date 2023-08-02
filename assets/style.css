@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+}
+header{
+    text-align: center;
+}
+.git{
+   margin: 50px;
+   text-align: justify;
+   font-size: 20px;
+}
+.terminal{
+    margin: 50px;
+    margin: 50px;
+    text-align: justify;
+    font-size: 20px;
+ }
+  p{
+    margin-bottom: 15px;
+  }
+  body{
+    background-color: rgba(252, 154, 26, 0.829);
+  }

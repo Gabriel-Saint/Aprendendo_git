@@ -1,20 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>git</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Git/Terminal</title>
 </head>
+
 <body>
-<h1>introdução ao git</h1>
-1 git init
-2 git status para ver quais arquivos não estao trackeados 
-3 git add . adiciona geral
-4 git status para verificar se foi trackeado
-5 git commit -a(add todo tipo de arquivo para o commit) -m(add uma mensagem para nortear e indentificar o que foi feito) para 
-6 executando
-1° teste no gitlab errado
-1° teste no github
+    <header>
+        <h1>Resumo de git e terminal(linux)</h1>
+    </header>
+
+    <div class="content">
+        <div class="git">
+            <p>Comandos Git</p>
+            <ol>
+                <li> <b> git init </b>- inicia o git</li>
+                <li> <b>git status</b> - verificar o status</li>
+                <li> <b>git add + "nome_do_arquivo"</b> - adiciona o aquivo específico</li>
+                <li> <b>git add .</b> - adiciona todos arquivos</li>
+                <li> <b>git commit -a(para todos tipo de aquivo) -m "mensagem_para_nortear" </b>- faz o commit</li>
+                <li> <b>git checkout - b + "nome_do_branch"</b> - cria um novo branch</li>
+                <li> <b>git checkout + "nome_do_branch"</b> - vai para um branch já existente</li>
+                <li> <b>git switch -c + "nome_do_branch" </b>- cria um branch e já vai ele </li>
+                <li> <b>git clone + URL +(opcional) "nome_do_projeto"</b> - faz a clonagem</li>
+                <li> <b>git merge + "nome_do_branch"</b> - faz a integração das alterações</li>
+                <li> <b>git remote -v </b> - lista os repositórios associados</li>
+                <li> <b>git remote add origin + URL </b> - Adiciona um repositório remoto</li>
+            </ol>
+        </div>
+        <div class="terminal">
+            <p>Comandos terminal(linux)</p>
+            <ol>
+                <li><b>mkdir + "nome_da_pasta"</b> - cria uma nova pasta</li>
+                <li><b>cd + "nome_da_pasta" </b> - entra na pasta</li>
+                <li><b>cd ..</b> - volta para o diretório pai</li>
+                <li><b>rm -r + "nome_da_pasta"</b> - apaga a pasta</li>
+                <li><b>ls</b> - listar as pastas</li>
+                <li><b>pwd</b> - ver em qual diretório está</li>
+            </ol>
+        </div>
+    </div>
+
+
 
 </body>
+
 </html>
